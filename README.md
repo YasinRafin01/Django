@@ -81,12 +81,15 @@ This Django application manages property information using Django admin. It allo
       python manage.py createsuperuser
       ```
   2. After creating the superuser do the following:
-    - Start the Django development server:
-         ```
-          python manage.py runserver
-         ```
-    - Access the Django Admin interface at `http://localhost:8000/admin/` and log in with your superuser credentials.
-    - Use the Admin interface to manage property information, including creating, reading, updating, and deleting properties, locations, and amenities.
+     
+       - Start the Django development server:
+            ```
+             python manage.py runserver
+     
+            ```
+       - Access the Django Admin interface at `http://localhost:8000/admin/` and log in with your superuser credentials.
+         
+       - Use the Admin interface to manage property information, including creating, reading, updating, and deleting properties, locations, and amenities.
 
 ## Project Structure
 - `Django/`
