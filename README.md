@@ -37,7 +37,7 @@ This Django application manages property information using Django admin. It allo
 ## Database Configuration:
 
 1. For Django Database configuration following steps required
-   - Open Terminal and type
+   - Open Linux/Mac Terminal and type
      ```
      nano ~/.pg_service.conf
      ```
