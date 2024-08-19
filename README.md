@@ -18,7 +18,7 @@ This Django application manages property information using Django admin. It allo
 - psycopg2 (PostgreSQL adapter for Python)
 
 ## Revision:
-- As in the scrapy project image downloading was missing in my case i have update the project and project link is given below. Requested to run that project before running this django project.
+- As in the scrapy project image downloading was missing in my case i have update the project and some changes have been made also in the structure of the project so project link is given below. Requested to run that project before running this django project.
 
   link: https://github.com/YasinRafin01/Scrapy_Project
 
