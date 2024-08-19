@@ -28,7 +28,7 @@ This Django application manages property information using Django admin. It allo
    
    ```
    git clone https://github.com/YasinRafin01/Django
-   cd Django-main
+   cd Django
    ```
 2. Create a virtual environment and activate it:
   ```
