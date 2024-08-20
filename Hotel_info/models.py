@@ -35,7 +35,7 @@ class Property(models.Model):
     title = models.CharField(max_length=1000)
     description = models.TextField()
     locations = models.ManyToManyField(Location)
-    amenities = models.ManyToManyField(Amenity)
+    amenities = models.ManyToManyField(Amenity,blank=True)
     create_date = models.DateTimeField(auto_now_add=True)
     update_date = models.DateTimeField(auto_now=True)
 
