@@ -112,8 +112,9 @@ This Django application manages property information using Django admin. It allo
       - `wsgi.py`
   - `Hotel_info/`
       - `management/`
-         - `migrate_scrapy_data.py`
-         -  `update_amenities.py`
+        - `commands/`
+           - `migrate_scrapy_data.py`
+           -  `update_amenities.py`
       - `migrations/`
          - `__init__.py`   
       - `__init__.py` 
