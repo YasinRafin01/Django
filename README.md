@@ -58,7 +58,7 @@ This Django application manages property information using Django admin. It allo
      ```
 2. For Scrapy Databse Connection go to projects config.py and edit the following:
    ```
-   DATABASE_URL = "postgresql://username:your_password@localhost:port_number/database_name"
+   DATABASE_URL = "postgresql://username:your_password@localhost:port_number/scrapy_database_name"
    
    ```
 3. For Scrapy local image storage go to projects config.py and edit the following with your scrapy image storage directory:
