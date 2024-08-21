@@ -33,7 +33,7 @@ class Property(models.Model):
 
     property_id = models.CharField(max_length=150, unique=True)
     title = models.CharField(max_length=1000)
-    description = models.TextField()
+    description = models.TextField(blank=True,null=True)
     locations = models.ManyToManyField(Location)
     amenities = models.ManyToManyField(Amenity,blank=True)
     create_date = models.DateTimeField(auto_now_add=True)
